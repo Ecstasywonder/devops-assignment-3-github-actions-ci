@@ -1,0 +1,8 @@
+services:
+  diagnostic:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: assignment3-devops-tool:local
+    restart: "no"
+    command: ["help"]
